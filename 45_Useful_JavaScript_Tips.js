@@ -32,8 +32,9 @@ function getCategory(age) {
     };  
     return category;  
 }  
-getCategory(5);  // will return "Baby"
+var res =getCategory(5);  // will return "Baby"
 
+res
 // is false
 // [10] == 10 // is true
 // '10' == 10 // is true
